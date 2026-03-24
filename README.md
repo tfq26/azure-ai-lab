@@ -15,13 +15,14 @@ Most students start with a simple API call to ChatGPT. However, building a *real
 - `src/02_custom_rag.py`: Integrating the datasets into the AI's "brain."
 - `src/03_live_challenge.py`: A template for you to write your own custom logic.
 - `src/04_evaluation.py`: How to grade your AI's performance.
+- `WORKSHOP_LEADER_GUIDE.md`: How to teach the workshop, explain the Azure services, and run a reliable demo.
 
 ## Datasets Provided
 We have provided four CSV/Text datasets in the `data/` folder:
-1.  **University Course Catalog**: Descriptions of classes and prerequisites.
-2.  **Campus Dining Menus**: Nutrition info and daily specials.
-3.  **Student Financial FAQs**: Information on tuition, scholarships, and deadlines.
-4.  **Local City Guide**: Points of interest around the campus.
+1.  **Restaurants**: Texas city, restaurant name, cuisine category, price, and rating.
+2.  **Attractions**: Texas city, attraction name, attraction type, admission price, and rating.
+3.  **Hotels**: Texas city, hotel name, stay category, nightly rate, and amenities.
+4.  **Flights**: Origin city, destination city, airline, flight number, price, and duration.
 
 > [!TIP]
-> **Don't like these topics?** Use the `PROMPT_DATA_GEN.md` file to ask an AI to generate a custom dataset for you!
+> **Want a different location or theme?** Use `PROMPT_DATA_GEN.md` as a starting point, or follow `WORKSHOP_LEADER_GUIDE.md` for the recommended config-driven customization approach.

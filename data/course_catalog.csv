@@ -1,6 +1,0 @@
-"ID","Course_Name","Department","Credits","Description","Prerequisites"
-"CS101","Intro to Programming","Computer Science",4,"Learn the basics of Python, logic, and algorithms.","None"
-"CS201","Data Structures","Computer Science",4,"Deep dive into lists, trees, and hash maps.","CS101"
-"BIO302","Molecular Biology","Biology",3,"Study of chemical structures at a molecular level.","BIO101"
-"ENG102","Modern Literature","English",3,"Exploration of 20th-century novels and poetry.","None"
-"MATH250","Linear Algebra","Mathematics",4,"Matrices, vector spaces, and linear transformations.","MATH101"
