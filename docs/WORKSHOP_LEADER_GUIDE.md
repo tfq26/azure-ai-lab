@@ -71,18 +71,18 @@ What students should understand:
 - Embeddings are used when the retrieval system needs vector search.
 - The model should not invent travel details when the dataset does not contain them.
 
-### Azure AI Foundry / Prompt Flow
+### Azure AI Foundry
 
 Use this explanation:
 
-"Foundry is the orchestration layer. It connects the prompt, the search tools, and the model into one repeatable flow."
+"Foundry is the application layer. It gives us a project, model deployments, evaluation tooling, and a clean endpoint for the app to call."
 
 What students should understand:
 
-- Prompt Flow defines the chat workflow.
-- It can route questions to the right search index.
-- It is the cleanest place to show tool orchestration in a workshop.
-- The deployed online endpoint is what your backend can call.
+- A standard Foundry project is the modern path for this repo.
+- The backend can call the OpenAI-compatible v1 endpoint directly.
+- Retrieval can still happen in your app or later through Azure AI Search.
+- You do not need Prompt Flow for the base version anymore.
 
 ### Azure Machine Learning
 
@@ -104,7 +104,7 @@ What this gives you:
 
 - `GET /api/explore/{category}` returns real data from the CSV files.
 - `POST /api/chat` returns a local trip-planning response from the datasets.
-- If Azure Prompt Flow is configured, the backend will try Azure first.
+- If Azure Foundry is configured, the backend will try the cloud model first.
 - If Azure is not configured or fails, the local mode still works.
 
 Use this mode for:
@@ -119,9 +119,9 @@ Once your Azure resources are ready:
 
 1. Upload the CSV files to Blob Storage.
 2. Create Azure AI Search indexes.
-3. Build the Prompt Flow in Azure AI Foundry.
-4. Deploy the flow to an online endpoint.
-5. Set `AZURE_PROMPT_FLOW_ENDPOINT` and `AZURE_PROMPT_FLOW_KEY` in `backend/.env`.
+3. Create a standard Foundry project in Azure AI Foundry.
+4. Deploy a chat model.
+5. Set `AZURE_FOUNDRY_BASE_URL`, `AZURE_FOUNDRY_API_KEY`, and `AZURE_FOUNDRY_MODEL_DEPLOYMENT` in `backend/.env`.
 6. Re-run the backend and test `POST /api/chat`.
 
 Use this mode for:

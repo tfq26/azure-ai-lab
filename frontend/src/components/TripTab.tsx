@@ -1,5 +1,7 @@
 import { useState, useRef, useEffect } from 'react'
 import { Send, User, Bot, Sparkles, Wand2 } from 'lucide-react'
+import ReactMarkdown from 'react-markdown'
+import remarkGfm from 'remark-gfm'
 
 export default function TripTab() {
   const [messages, setMessages] = useState([
@@ -26,7 +28,13 @@ export default function TripTab() {
       const res = await fetch('/api/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ message: userMsg })
+        body: JSON.stringify({ 
+          message: userMsg,
+          history: messages.map(m => ({
+            role: m.role === 'bot' ? 'assistant' : 'user',
+            content: m.content
+          }))
+        })
       })
       const data = await res.json()
       setMessages(prev => [...prev, { role: 'bot', content: data.response }])
@@ -38,25 +46,12 @@ export default function TripTab() {
   }
 
   return (
-    <div className="max-w-4xl mx-auto py-8 h-[calc(100vh-12rem)] flex flex-col">
-      {/* Header Info */}
-      <div className="mb-6 flex items-center justify-between border-b pb-4">
-        <div>
-          <h2 className="text-2xl font-bold text-slate-800 flex items-center gap-2">
-            Trip Planner <Sparkles className="text-red-500" size={20} />
-          </h2>
-          <p className="text-slate-500 text-sm">Powered by Azure OpenAI & 40,000 Texas data points.</p>
-        </div>
-        <div className="text-xs bg-red-100 text-red-700 font-bold px-3 py-1 uppercase tracking-widest">
-          RAG Mode Active
-        </div>
-      </div>
-
+    <div className="max-w-full mx-auto py-8 h-[90vh] flex flex-col">
       {/* Chat Messages */}
-      <div className="flex-1 overflow-y-auto space-y-6 pr-4 mb-6 scrollbar-thin scrollbar-thumb-slate-200">
+      <div className="flex-1 overflow-y-auto space-y-6 pr-4 mb-6 scrollbar-thin scrollbar-thumb-slate-200 px-4">
         {messages.map((msg, i) => (
           <div key={i} className={`flex ${msg.role === 'user' ? 'justify-end' : 'justify-start'} animate-in fade-in duration-300`}>
-            <div className={`flex max-w-[80%] gap-3 ${msg.role === 'user' ? 'flex-row-reverse' : 'flex-row'}`}>
+            <div className={`flex max-w-[90%] md:max-w-prose gap-4 ${msg.role === 'user' ? 'flex-row-reverse' : 'flex-row'}`}>
               <div className={`
                 w-10 h-10 flex items-center justify-center shrink-0 shadow-sm
                 ${msg.role === 'user' ? 'bg-slate-800 text-white' : 'bg-red-600 text-white'}
@@ -65,16 +60,36 @@ export default function TripTab() {
               </div>
               
               <div className={`
-                p-4 text-sm leading-relaxed shadow-sm
-                ${msg.role === 'user' ? 'bg-slate-100 text-slate-800' : 'bg-white border text-slate-800'}
+                p-6 shadow-sm border
+                ${msg.role === 'user' ? 'bg-slate-50 text-slate-800 border-slate-200' : 'bg-white text-slate-800 border-slate-100'}
               `}>
-                {msg.content}
+                {msg.role === 'user' ? (
+                   <p className="text-sm font-medium">{msg.content}</p>
+                ) : (
+                  <div className="prose prose-sm max-w-none prose-slate">
+                    <ReactMarkdown 
+                      remarkPlugins={[remarkGfm]}
+                      components={{
+                        h1: ({node, ...props}) => <h1 className="text-3xl font-black text-slate-900 mt-8 mb-4 tracking-tighter" {...props} />,
+                        h2: ({node, ...props}) => <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4" {...props} />,
+                        h3: ({node, ...props}) => <h3 className="text-xl font-bold text-slate-900 mt-6 mb-3 flex items-center gap-2 group" {...props} />,
+                        p: ({node, ...props}) => <p className="mb-4 text-slate-600 leading-relaxed text-base" {...props} />,
+                        ul: ({node, ...props}) => <ul className="list-disc pl-5 mb-4 space-y-2 text-slate-600" {...props} />,
+                        li: ({node, ...props}) => <li className="pl-1" {...props} />,
+                        strong: ({node, ...props}) => <strong className="font-bold text-slate-900" {...props} />,
+                        hr: ({node, ...props}) => <hr className="my-10 border-slate-100" {...props} />,
+                      }}
+                    >
+                      {msg.content}
+                    </ReactMarkdown>
+                  </div>
+                )}
               </div>
             </div>
           </div>
         ))}
         {loading && (
-          <div className="flex justify-start animate-pulse">
+          <div className="flex justify-start animate-pulse px-4">
             <div className="bg-slate-100 p-4 flex gap-2">
               <div className="w-2 h-2 bg-slate-400 animate-bounce" />
               <div className="w-2 h-2 bg-slate-400 animate-bounce [animation-delay:0.2s]" />
@@ -86,36 +101,30 @@ export default function TripTab() {
       </div>
 
       {/* Input Area */}
-      <div className="relative group p-4 bg-white border border-slate-200 shadow-lg focus-within:ring-2 focus-within:ring-red-500/20 transition-all">
-        <div className="absolute -top-4 left-6 bg-slate-900 text-white px-3 py-1 text-xs font-bold flex items-center gap-1 shadow-md">
-          <Wand2 size={12} /> Student Challenge: The Cloud Orchestrator
-        </div>
-        
-        <div className="flex gap-4 items-center">
-          <input
-            type="text"
-            placeholder="Ask anything about Texas (e.g. 'Plan a weekend in Dallas with a pool hotel')"
-            className="flex-1 bg-transparent border-none focus:outline-none text-slate-800"
-            value={input}
-            onChange={(e) => setInput(e.target.value)}
-            onKeyDown={(e) => e.key === 'Enter' && handleSend()}
-          />
-          <button 
-            disabled={loading || !input.trim()}
-            onClick={handleSend}
-            className={`
-              w-12 h-12 flex items-center justify-center transition-all shadow-md
-              ${!input.trim() || loading ? 'bg-slate-100 text-slate-400' : 'bg-red-600 text-white hover:bg-red-700 hover:rotate-12'}
-            `}
-          >
-            <Send size={20} />
-          </button>
+      <div className="max-w-4xl mx-auto w-full relative">
+        <div className="group p-4 bg-white border border-slate-200 shadow-xl focus-within:ring-2 focus-within:ring-red-500/20 transition-all rounded-xl">
+          <div className="flex gap-4 items-center">
+            <input
+              type="text"
+              placeholder="Ask anything about Texas (e.g. 'Plan a weekend in Dallas with a pool hotel')"
+              className="flex-1 bg-transparent border-none focus:outline-none text-slate-800 text-lg"
+              value={input}
+              onChange={(e) => setInput(e.target.value)}
+              onKeyDown={(e) => e.key === 'Enter' && handleSend()}
+            />
+            <button 
+              disabled={loading || !input.trim()}
+              onClick={handleSend}
+              className={`
+                w-12 h-12 flex items-center justify-center transition-all shadow-md rounded-lg
+                ${!input.trim() || loading ? 'bg-slate-100 text-slate-400' : 'bg-red-600 text-white hover:bg-red-700 hover:-translate-y-0.5'}
+              `}
+            >
+              <Send size={20} />
+            </button>
+          </div>
         </div>
       </div>
-      
-      <p className="text-center text-[10px] uppercase tracking-widest text-slate-400 mt-4 font-bold">
-        Azure Foundry · Prompt Flow · GPT-4o · RAG Integration
-      </p>
     </div>
   )
 }

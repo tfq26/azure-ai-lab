@@ -1,0 +1,702 @@
+[
+  {
+    "City": "New York",
+    "Name": "Cactus Resort New York #1",
+    "Category": "Budget",
+    "Rate": "$116/night",
+    "Amenities": "Gym, Breakfast"
+  },
+  {
+    "City": "Chicago",
+    "Name": "Saddle Lodge Chicago #2",
+    "Category": "Boutique",
+    "Rate": "$328/night",
+    "Amenities": "Spa, Bar"
+  },
+  {
+    "City": "San Francisco",
+    "Name": "River Manor San Francisco #3",
+    "Category": "Ranch",
+    "Rate": "$347/night",
+    "Amenities": "Parking, Pets"
+  },
+  {
+    "City": "Miami",
+    "Name": "Star Courtyard Miami #4",
+    "Category": "Suites",
+    "Rate": "$426/night",
+    "Amenities": "Pool, WiFi"
+  },
+  {
+    "City": "Boston",
+    "Name": "Crest Suites Boston #5",
+    "Category": "Inn",
+    "Rate": "$181/night",
+    "Amenities": "Gym, Breakfast"
+  },
+  {
+    "City": "Seattle",
+    "Name": "Magnolia Hotel Seattle #6",
+    "Category": "Luxury",
+    "Rate": "$365/night",
+    "Amenities": "Spa, Bar"
+  },
+  {
+    "City": "Denver",
+    "Name": "Cactus Resort Denver #7",
+    "Category": "Budget",
+    "Rate": "$284/night",
+    "Amenities": "Parking, Pets"
+  },
+  {
+    "City": "Austin",
+    "Name": "Saddle Lodge Austin #8",
+    "Category": "Boutique",
+    "Rate": "$105/night",
+    "Amenities": "Pool, WiFi"
+  },
+  {
+    "City": "Toronto",
+    "Name": "River Manor Toronto #9",
+    "Category": "Ranch",
+    "Rate": "$314/night",
+    "Amenities": "Gym, Breakfast"
+  },
+  {
+    "City": "Vancouver",
+    "Name": "Star Courtyard Vancouver #10",
+    "Category": "Suites",
+    "Rate": "$166/night",
+    "Amenities": "Spa, Bar"
+  },
+  {
+    "City": "Calgary",
+    "Name": "Crest Suites Calgary #11",
+    "Category": "Inn",
+    "Rate": "$444/night",
+    "Amenities": "Parking, Pets"
+  },
+  {
+    "City": "Edmonton",
+    "Name": "Magnolia Hotel Edmonton #12",
+    "Category": "Luxury",
+    "Rate": "$172/night",
+    "Amenities": "Pool, WiFi"
+  },
+  {
+    "City": "Ottawa",
+    "Name": "Cactus Resort Ottawa #13",
+    "Category": "Budget",
+    "Rate": "$342/night",
+    "Amenities": "Gym, Breakfast"
+  },
+  {
+    "City": "Montreal",
+    "Name": "Saddle Lodge Montreal #14",
+    "Category": "Boutique",
+    "Rate": "$126/night",
+    "Amenities": "Spa, Bar"
+  },
+  {
+    "City": "Knoxville",
+    "Name": "River Manor Knoxville #15",
+    "Category": "Ranch",
+    "Rate": "$378/night",
+    "Amenities": "Parking, Pets"
+  },
+  {
+    "City": "Nashville",
+    "Name": "Star Courtyard Nashville #16",
+    "Category": "Suites",
+    "Rate": "$420/night",
+    "Amenities": "Pool, WiFi"
+  },
+  {
+    "City": "Mexico City",
+    "Name": "Crest Suites Mexico City #17",
+    "Category": "Inn",
+    "Rate": "$102/night",
+    "Amenities": "Gym, Breakfast"
+  },
+  {
+    "City": "San Diego",
+    "Name": "Magnolia Hotel San Diego #18",
+    "Category": "Luxury",
+    "Rate": "$376/night",
+    "Amenities": "Spa, Bar"
+  },
+  {
+    "City": "San Jose",
+    "Name": "Cactus Resort San Jose #19",
+    "Category": "Budget",
+    "Rate": "$189/night",
+    "Amenities": "Parking, Pets"
+  },
+  {
+    "City": "Los Angeles",
+    "Name": "Saddle Lodge Los Angeles #20",
+    "Category": "Boutique",
+    "Rate": "$422/night",
+    "Amenities": "Pool, WiFi"
+  },
+  {
+    "City": "New York",
+    "Name": "River Manor New York #21",
+    "Category": "Ranch",
+    "Rate": "$356/night",
+    "Amenities": "Gym, Breakfast"
+  },
+  {
+    "City": "Chicago",
+    "Name": "Star Courtyard Chicago #22",
+    "Category": "Suites",
+    "Rate": "$441/night",
+    "Amenities": "Spa, Bar"
+  },
+  {
+    "City": "San Francisco",
+    "Name": "Crest Suites San Francisco #23",
+    "Category": "Inn",
+    "Rate": "$102/night",
+    "Amenities": "Parking, Pets"
+  },
+  {
+    "City": "Miami",
+    "Name": "Magnolia Hotel Miami #24",
+    "Category": "Luxury",
+    "Rate": "$417/night",
+    "Amenities": "Pool, WiFi"
+  },
+  {
+    "City": "Boston",
+    "Name": "Cactus Resort Boston #25",
+    "Category": "Budget",
+    "Rate": "$94/night",
+    "Amenities": "Gym, Breakfast"
+  },
+  {
+    "City": "Seattle",
+    "Name": "Saddle Lodge Seattle #26",
+    "Category": "Boutique",
+    "Rate": "$453/night",
+    "Amenities": "Spa, Bar"
+  },
+  {
+    "City": "Denver",
+    "Name": "River Manor Denver #27",
+    "Category": "Ranch",
+    "Rate": "$120/night",
+    "Amenities": "Parking, Pets"
+  },
+  {
+    "City": "Austin",
+    "Name": "Star Courtyard Austin #28",
+    "Category": "Suites",
+    "Rate": "$354/night",
+    "Amenities": "Pool, WiFi"
+  },
+  {
+    "City": "Toronto",
+    "Name": "Crest Suites Toronto #29",
+    "Category": "Inn",
+    "Rate": "$175/night",
+    "Amenities": "Gym, Breakfast"
+  },
+  {
+    "City": "Vancouver",
+    "Name": "Magnolia Hotel Vancouver #30",
+    "Category": "Luxury",
+    "Rate": "$301/night",
+    "Amenities": "Spa, Bar"
+  },
+  {
+    "City": "Calgary",
+    "Name": "Cactus Resort Calgary #31",
+    "Category": "Budget",
+    "Rate": "$201/night",
+    "Amenities": "Parking, Pets"
+  },
+  {
+    "City": "Edmonton",
+    "Name": "Saddle Lodge Edmonton #32",
+    "Category": "Boutique",
+    "Rate": "$378/night",
+    "Amenities": "Pool, WiFi"
+  },
+  {
+    "City": "Ottawa",
+    "Name": "River Manor Ottawa #33",
+    "Category": "Ranch",
+    "Rate": "$180/night",
+    "Amenities": "Gym, Breakfast"
+  },
+  {
+    "City": "Montreal",
+    "Name": "Star Courtyard Montreal #34",
+    "Category": "Suites",
+    "Rate": "$75/night",
+    "Amenities": "Spa, Bar"
+  },
+  {
+    "City": "Knoxville",
+    "Name": "Crest Suites Knoxville #35",
+    "Category": "Inn",
+    "Rate": "$165/night",
+    "Amenities": "Parking, Pets"
+  },
+  {
+    "City": "Nashville",
+    "Name": "Magnolia Hotel Nashville #36",
+    "Category": "Luxury",
+    "Rate": "$80/night",
+    "Amenities": "Pool, WiFi"
+  },
+  {
+    "City": "Mexico City",
+    "Name": "Cactus Resort Mexico City #37",
+    "Category": "Budget",
+    "Rate": "$456/night",
+    "Amenities": "Gym, Breakfast"
+  },
+  {
+    "City": "San Diego",
+    "Name": "Saddle Lodge San Diego #38",
+    "Category": "Boutique",
+    "Rate": "$176/night",
+    "Amenities": "Spa, Bar"
+  },
+  {
+    "City": "San Jose",
+    "Name": "River Manor San Jose #39",
+    "Category": "Ranch",
+    "Rate": "$136/night",
+    "Amenities": "Parking, Pets"
+  },
+  {
+    "City": "Los Angeles",
+    "Name": "Star Courtyard Los Angeles #40",
+    "Category": "Suites",
+    "Rate": "$363/night",
+    "Amenities": "Pool, WiFi"
+  },
+  {
+    "City": "New York",
+    "Name": "Crest Suites New York #41",
+    "Category": "Inn",
+    "Rate": "$292/night",
+    "Amenities": "Gym, Breakfast"
+  },
+  {
+    "City": "Chicago",
+    "Name": "Magnolia Hotel Chicago #42",
+    "Category": "Luxury",
+    "Rate": "$148/night",
+    "Amenities": "Spa, Bar"
+  },
+  {
+    "City": "San Francisco",
+    "Name": "Cactus Resort San Francisco #43",
+    "Category": "Budget",
+    "Rate": "$161/night",
+    "Amenities": "Parking, Pets"
+  },
+  {
+    "City": "Miami",
+    "Name": "Saddle Lodge Miami #44",
+    "Category": "Boutique",
+    "Rate": "$78/night",
+    "Amenities": "Pool, WiFi"
+  },
+  {
+    "City": "Boston",
+    "Name": "River Manor Boston #45",
+    "Category": "Ranch",
+    "Rate": "$379/night",
+    "Amenities": "Gym, Breakfast"
+  },
+  {
+    "City": "Seattle",
+    "Name": "Star Courtyard Seattle #46",
+    "Category": "Suites",
+    "Rate": "$419/night",
+    "Amenities": "Spa, Bar"
+  },
+  {
+    "City": "Denver",
+    "Name": "Crest Suites Denver #47",
+    "Category": "Inn",
+    "Rate": "$333/night",
+    "Amenities": "Parking, Pets"
+  },
+  {
+    "City": "Austin",
+    "Name": "Magnolia Hotel Austin #48",
+    "Category": "Luxury",
+    "Rate": "$400/night",
+    "Amenities": "Pool, WiFi"
+  },
+  {
+    "City": "Toronto",
+    "Name": "Cactus Resort Toronto #49",
+    "Category": "Budget",
+    "Rate": "$457/night",
+    "Amenities": "Gym, Breakfast"
+  },
+  {
+    "City": "Vancouver",
+    "Name": "Saddle Lodge Vancouver #50",
+    "Category": "Boutique",
+    "Rate": "$335/night",
+    "Amenities": "Spa, Bar"
+  },
+  {
+    "City": "Calgary",
+    "Name": "River Manor Calgary #51",
+    "Category": "Ranch",
+    "Rate": "$232/night",
+    "Amenities": "Parking, Pets"
+  },
+  {
+    "City": "Edmonton",
+    "Name": "Star Courtyard Edmonton #52",
+    "Category": "Suites",
+    "Rate": "$125/night",
+    "Amenities": "Pool, WiFi"
+  },
+  {
+    "City": "Ottawa",
+    "Name": "Crest Suites Ottawa #53",
+    "Category": "Inn",
+    "Rate": "$456/night",
+    "Amenities": "Gym, Breakfast"
+  },
+  {
+    "City": "Montreal",
+    "Name": "Magnolia Hotel Montreal #54",
+    "Category": "Luxury",
+    "Rate": "$177/night",
+    "Amenities": "Spa, Bar"
+  },
+  {
+    "City": "Knoxville",
+    "Name": "Cactus Resort Knoxville #55",
+    "Category": "Budget",
+    "Rate": "$309/night",
+    "Amenities": "Parking, Pets"
+  },
+  {
+    "City": "Nashville",
+    "Name": "Saddle Lodge Nashville #56",
+    "Category": "Boutique",
+    "Rate": "$71/night",
+    "Amenities": "Pool, WiFi"
+  },
+  {
+    "City": "Mexico City",
+    "Name": "River Manor Mexico City #57",
+    "Category": "Ranch",
+    "Rate": "$189/night",
+    "Amenities": "Gym, Breakfast"
+  },
+  {
+    "City": "San Diego",
+    "Name": "Star Courtyard San Diego #58",
+    "Category": "Suites",
+    "Rate": "$197/night",
+    "Amenities": "Spa, Bar"
+  },
+  {
+    "City": "San Jose",
+    "Name": "Crest Suites San Jose #59",
+    "Category": "Inn",
+    "Rate": "$70/night",
+    "Amenities": "Parking, Pets"
+  },
+  {
+    "City": "Los Angeles",
+    "Name": "Magnolia Hotel Los Angeles #60",
+    "Category": "Luxury",
+    "Rate": "$148/night",
+    "Amenities": "Pool, WiFi"
+  },
+  {
+    "City": "New York",
+    "Name": "Cactus Resort New York #61",
+    "Category": "Budget",
+    "Rate": "$145/night",
+    "Amenities": "Gym, Breakfast"
+  },
+  {
+    "City": "Chicago",
+    "Name": "Saddle Lodge Chicago #62",
+    "Category": "Boutique",
+    "Rate": "$202/night",
+    "Amenities": "Spa, Bar"
+  },
+  {
+    "City": "San Francisco",
+    "Name": "River Manor San Francisco #63",
+    "Category": "Ranch",
+    "Rate": "$217/night",
+    "Amenities": "Parking, Pets"
+  },
+  {
+    "City": "Miami",
+    "Name": "Star Courtyard Miami #64",
+    "Category": "Suites",
+    "Rate": "$197/night",
+    "Amenities": "Pool, WiFi"
+  },
+  {
+    "City": "Boston",
+    "Name": "Crest Suites Boston #65",
+    "Category": "Inn",
+    "Rate": "$449/night",
+    "Amenities": "Gym, Breakfast"
+  },
+  {
+    "City": "Seattle",
+    "Name": "Magnolia Hotel Seattle #66",
+    "Category": "Luxury",
+    "Rate": "$448/night",
+    "Amenities": "Spa, Bar"
+  },
+  {
+    "City": "Denver",
+    "Name": "Cactus Resort Denver #67",
+    "Category": "Budget",
+    "Rate": "$275/night",
+    "Amenities": "Parking, Pets"
+  },
+  {
+    "City": "Austin",
+    "Name": "Saddle Lodge Austin #68",
+    "Category": "Boutique",
+    "Rate": "$314/night",
+    "Amenities": "Pool, WiFi"
+  },
+  {
+    "City": "Toronto",
+    "Name": "River Manor Toronto #69",
+    "Category": "Ranch",
+    "Rate": "$89/night",
+    "Amenities": "Gym, Breakfast"
+  },
+  {
+    "City": "Vancouver",
+    "Name": "Star Courtyard Vancouver #70",
+    "Category": "Suites",
+    "Rate": "$260/night",
+    "Amenities": "Spa, Bar"
+  },
+  {
+    "City": "Calgary",
+    "Name": "Crest Suites Calgary #71",
+    "Category": "Inn",
+    "Rate": "$293/night",
+    "Amenities": "Parking, Pets"
+  },
+  {
+    "City": "Edmonton",
+    "Name": "Magnolia Hotel Edmonton #72",
+    "Category": "Luxury",
+    "Rate": "$306/night",
+    "Amenities": "Pool, WiFi"
+  },
+  {
+    "City": "Ottawa",
+    "Name": "Cactus Resort Ottawa #73",
+    "Category": "Budget",
+    "Rate": "$94/night",
+    "Amenities": "Gym, Breakfast"
+  },
+  {
+    "City": "Montreal",
+    "Name": "Saddle Lodge Montreal #74",
+    "Category": "Boutique",
+    "Rate": "$73/night",
+    "Amenities": "Spa, Bar"
+  },
+  {
+    "City": "Knoxville",
+    "Name": "River Manor Knoxville #75",
+    "Category": "Ranch",
+    "Rate": "$260/night",
+    "Amenities": "Parking, Pets"
+  },
+  {
+    "City": "Nashville",
+    "Name": "Star Courtyard Nashville #76",
+    "Category": "Suites",
+    "Rate": "$307/night",
+    "Amenities": "Pool, WiFi"
+  },
+  {
+    "City": "Mexico City",
+    "Name": "Crest Suites Mexico City #77",
+    "Category": "Inn",
+    "Rate": "$299/night",
+    "Amenities": "Gym, Breakfast"
+  },
+  {
+    "City": "San Diego",
+    "Name": "Magnolia Hotel San Diego #78",
+    "Category": "Luxury",
+    "Rate": "$432/night",
+    "Amenities": "Spa, Bar"
+  },
+  {
+    "City": "San Jose",
+    "Name": "Cactus Resort San Jose #79",
+    "Category": "Budget",
+    "Rate": "$175/night",
+    "Amenities": "Parking, Pets"
+  },
+  {
+    "City": "Los Angeles",
+    "Name": "Saddle Lodge Los Angeles #80",
+    "Category": "Boutique",
+    "Rate": "$283/night",
+    "Amenities": "Pool, WiFi"
+  },
+  {
+    "City": "New York",
+    "Name": "River Manor New York #81",
+    "Category": "Ranch",
+    "Rate": "$425/night",
+    "Amenities": "Gym, Breakfast"
+  },
+  {
+    "City": "Chicago",
+    "Name": "Star Courtyard Chicago #82",
+    "Category": "Suites",
+    "Rate": "$408/night",
+    "Amenities": "Spa, Bar"
+  },
+  {
+    "City": "San Francisco",
+    "Name": "Crest Suites San Francisco #83",
+    "Category": "Inn",
+    "Rate": "$246/night",
+    "Amenities": "Parking, Pets"
+  },
+  {
+    "City": "Miami",
+    "Name": "Magnolia Hotel Miami #84",
+    "Category": "Luxury",
+    "Rate": "$121/night",
+    "Amenities": "Pool, WiFi"
+  },
+  {
+    "City": "Boston",
+    "Name": "Cactus Resort Boston #85",
+    "Category": "Budget",
+    "Rate": "$255/night",
+    "Amenities": "Gym, Breakfast"
+  },
+  {
+    "City": "Seattle",
+    "Name": "Saddle Lodge Seattle #86",
+    "Category": "Boutique",
+    "Rate": "$149/night",
+    "Amenities": "Spa, Bar"
+  },
+  {
+    "City": "Denver",
+    "Name": "River Manor Denver #87",
+    "Category": "Ranch",
+    "Rate": "$196/night",
+    "Amenities": "Parking, Pets"
+  },
+  {
+    "City": "Austin",
+    "Name": "Star Courtyard Austin #88",
+    "Category": "Suites",
+    "Rate": "$320/night",
+    "Amenities": "Pool, WiFi"
+  },
+  {
+    "City": "Toronto",
+    "Name": "Crest Suites Toronto #89",
+    "Category": "Inn",
+    "Rate": "$104/night",
+    "Amenities": "Gym, Breakfast"
+  },
+  {
+    "City": "Vancouver",
+    "Name": "Magnolia Hotel Vancouver #90",
+    "Category": "Luxury",
+    "Rate": "$308/night",
+    "Amenities": "Spa, Bar"
+  },
+  {
+    "City": "Calgary",
+    "Name": "Cactus Resort Calgary #91",
+    "Category": "Budget",
+    "Rate": "$144/night",
+    "Amenities": "Parking, Pets"
+  },
+  {
+    "City": "Edmonton",
+    "Name": "Saddle Lodge Edmonton #92",
+    "Category": "Boutique",
+    "Rate": "$426/night",
+    "Amenities": "Pool, WiFi"
+  },
+  {
+    "City": "Ottawa",
+    "Name": "River Manor Ottawa #93",
+    "Category": "Ranch",
+    "Rate": "$243/night",
+    "Amenities": "Gym, Breakfast"
+  },
+  {
+    "City": "Montreal",
+    "Name": "Star Courtyard Montreal #94",
+    "Category": "Suites",
+    "Rate": "$439/night",
+    "Amenities": "Spa, Bar"
+  },
+  {
+    "City": "Knoxville",
+    "Name": "Crest Suites Knoxville #95",
+    "Category": "Inn",
+    "Rate": "$125/night",
+    "Amenities": "Parking, Pets"
+  },
+  {
+    "City": "Nashville",
+    "Name": "Magnolia Hotel Nashville #96",
+    "Category": "Luxury",
+    "Rate": "$191/night",
+    "Amenities": "Pool, WiFi"
+  },
+  {
+    "City": "Mexico City",
+    "Name": "Cactus Resort Mexico City #97",
+    "Category": "Budget",
+    "Rate": "$115/night",
+    "Amenities": "Gym, Breakfast"
+  },
+  {
+    "City": "San Diego",
+    "Name": "Saddle Lodge San Diego #98",
+    "Category": "Boutique",
+    "Rate": "$121/night",
+    "Amenities": "Spa, Bar"
+  },
+  {
+    "City": "San Jose",
+    "Name": "River Manor San Jose #99",
+    "Category": "Ranch",
+    "Rate": "$286/night",
+    "Amenities": "Parking, Pets"
+  },
+  {
+    "City": "Los Angeles",
+    "Name": "Star Courtyard Los Angeles #100",
+    "Category": "Suites",
+    "Rate": "$169/night",
+    "Amenities": "Pool, WiFi"
+  }
+]

@@ -1,14 +1,13 @@
 const fs = require('fs');
 const path = require('path');
 
-const ROW_COUNT = 10000;
-const escape = (str) => `"${String(str).replace(/"/g, '""')}"`;
+const ROW_COUNT = 100;
 
 const texasCities = [
-    'Austin', 'Houston', 'Dallas', 'San Antonio', 'Fort Worth', 
-    'El Paso', 'Arlington', 'Corpus Christi', 'Plano', 'Laredo', 
-    'Lubbock', 'Garland', 'Irving', 'Amarillo', 'Grand Prairie', 
-    'Brownsville', 'McKinney', 'Frisco', 'Pasadena', 'Mesquite'
+    'Los Angeles', 'New York', 'Chicago', 'San Francisco', 'Miami', 
+    'Boston', 'Seattle', 'Denver', 'Austin', 'Toronto', 
+    'Vancouver', 'Calgary', 'Edmonton', 'Ottawa', 'Montreal', 
+    'Knoxville', 'Nashville', 'Mexico City', 'San Diego', 'San Jose'
 ];
 
 // --- 1. RESTAURANTS ---
@@ -22,7 +21,7 @@ function generateRestaurantRow(id) {
     const name = `${resNames[id % resNames.length]} ${resNouns[id % resNouns.length]} of ${city} #${id}`;
     const price = ['$', '$$', '$$$', '$$$$'][id % 4];
     const rating = (3.5 + (Math.random() * 1.5)).toFixed(1);
-    return [escape(city), escape(name), escape(cat), escape(price), escape(rating)].join(',');
+    return { City: city, Name: name, Category: cat, Price: price, Rating: rating };
 }
 
 // --- 2. ATTRACTIONS ---
@@ -36,7 +35,7 @@ function generateAttractionRow(id) {
     const name = `${attrNames[id % attrNames.length]} ${attrTypes[id % attrTypes.length]} of ${city} #${id}`;
     const price = (Math.random() * 50).toFixed(2);
     const rating = (4.0 + (Math.random() * 1.0)).toFixed(1);
-    return [escape(city), escape(name), escape(cat), escape(`$${price}`), escape(rating)].join(',');
+    return { City: city, Name: name, Category: cat, Admission: `$${price}`, Rating: rating };
 }
 
 // --- 3. HOTELS ---
@@ -50,33 +49,52 @@ function generateHotelRow(id) {
     const name = `${hotelBrands[id % hotelBrands.length]} ${hotelTypes[id % hotelTypes.length]} ${city} #${id}`;
     const rate = (70 + (Math.random() * 400)).toFixed(0);
     const amenities = ['Pool, WiFi', 'Gym, Breakfast', 'Spa, Bar', 'Parking, Pets'][id % 4];
-    return [escape(city), escape(name), escape(cat), escape(`$${rate}/night`), escape(amenities)].join(',');
+    return { City: city, Name: name, Category: cat, Rate: `$${rate}/night`, Amenities: amenities };
 }
 
 // --- 4. FLIGHTS ---
-const origins = ['JFK (New York)', 'LAX (Los Angeles)', 'ORD (Chicago)', 'ATL (Atlanta)', 'SFO (San Francisco)'];
 const airlines = ['Southwest', 'American Airlines', 'United', 'Delta', 'JetBlue'];
 
 function generateFlightRow(id) {
-    const origin = origins[id % origins.length];
-    const dest = texasCities[id % texasCities.length];
+    const origin = texasCities[id % texasCities.length];
+    let dest = texasCities[(id + 5) % texasCities.length]; // Ensure offset so they differ
+    
+    // Fallback in case they collide (unlikely with id+5 but safe)
+    if (origin === dest) dest = texasCities[0] === origin ? texasCities[1] : texasCities[0];
+
     const airline = airlines[id % airlines.length];
     const flightNum = `TX${1000 + id}`;
     const price = (150 + (Math.random() * 500)).toFixed(2);
     const duration = `${(2 + Math.random() * 3).toFixed(1)}h`;
-    return [escape(origin), escape(dest), escape(airline), escape(flightNum), escape(`$${price}`), escape(duration)].join(',');
+    return { Origin: origin, Destination: dest, Airline: airline, Flight_No: flightNum, Price: `$${price}`, Duration: duration };
 }
 
-function generate(filename, headers, rowGen) {
-    const stream = fs.createWriteStream(path.join(__dirname, filename));
-    stream.write(headers + '\n');
+function generate(filename, rowGen) {
+    const data = [];
     for (let i = 1; i <= ROW_COUNT; i++) {
-        stream.write(rowGen(i) + '\n');
+        data.push(rowGen(i));
     }
-    stream.end(() => console.log(`Saved ${filename}`));
+    fs.writeFileSync(path.join(__dirname, filename), JSON.stringify(data, null, 2));
+    console.log(`Saved ${filename}`);
 }
 
-generate('texas_restaurants.csv', '"City","Name","Category","Price","Rating"', generateRestaurantRow);
-generate('texas_attractions.csv', '"City","Name","Category","Admission","Rating"', generateAttractionRow);
-generate('texas_hotels.csv', '"City","Name","Category","Rate","Amenities"', generateHotelRow);
-generate('texas_flights.csv', '"Origin","Destination","Airline","Flight_No","Price","Duration"', generateFlightRow);
+generate('restaurants.json', generateRestaurantRow);
+generate('attractions.json', generateAttractionRow);
+generate('hotels.json', generateHotelRow);
+generate('flights.json', generateFlightRow);
+
+// --- 5. METADATA --- Generate a single source-of-truth for all unique filterable values.
+// This file is small and perfectly structured, making it immune to Azure chunk boundary issues.
+const metadata = {
+    cities: [...new Set(texasCities)].sort(),
+    flight_origins: [...new Set(texasCities)].sort(),
+    flight_destinations: [...new Set(texasCities)].sort(),
+    restaurant_categories: [...new Set(resCats)].sort(),
+    restaurant_prices: ['$', '$$', '$$$', '$$$$'],
+    attraction_categories: [...new Set(attrCats)].sort(),
+    hotel_categories: [...new Set(hotelCats)].sort(),
+    airlines: [...new Set(airlines)].sort(),
+};
+
+fs.writeFileSync(path.join(__dirname, 'metadata.json'), JSON.stringify(metadata, null, 2));
+console.log('Saved metadata.json');

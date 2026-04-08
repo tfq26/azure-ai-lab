@@ -50,16 +50,11 @@ function App() {
       {/* Main Content Area */}
       <main className="flex-1 max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 py-8">
         <div className="animate-in fade-in slide-in-from-bottom-4 duration-700">
-          {activeTab === 'home' && <HomeTab />}
-          {activeTab === 'explore' && <ExploreTab />}
-          {activeTab === 'trip' && <TripTab />}
+          <div className={activeTab === 'home' ? 'block' : 'hidden'}><HomeTab /></div>
+          <div className={activeTab === 'explore' ? 'block' : 'hidden'}><ExploreTab /></div>
+          <div className={activeTab === 'trip' ? 'block' : 'hidden'}><TripTab /></div>
         </div>
       </main>
-
-      {/* Simple Footer */}
-      <footer className="bg-slate-900 text-slate-400 py-8 text-center text-sm">
-        <p>&copy; 2026 Explore Texas AI Lab. Built with Azure AI Foundry.</p>
-      </footer>
     </div>
   )
 }
