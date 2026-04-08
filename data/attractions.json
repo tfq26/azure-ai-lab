@@ -3,700 +3,700 @@
     "City": "New York",
     "Name": "Victory Plaza of New York #1",
     "Category": "Park",
-    "Admission": "$45.01",
-    "Rating": "4.3"
+    "Admission": "$27.51",
+    "Rating": "4.6"
   },
   {
     "City": "Chicago",
     "Name": "Discovery Gardens of Chicago #2",
     "Category": "Historical Site",
-    "Admission": "$45.12",
-    "Rating": "4.6"
+    "Admission": "$45.28",
+    "Rating": "4.3"
   },
   {
     "City": "San Francisco",
     "Name": "Liberty Monument of San Francisco #3",
     "Category": "Theme Park",
-    "Admission": "$7.12",
-    "Rating": "4.0"
+    "Admission": "$18.11",
+    "Rating": "4.1"
   },
   {
     "City": "Miami",
     "Name": "Frontier Preserve of Miami #4",
     "Category": "Landmark",
-    "Admission": "$17.13",
-    "Rating": "4.6"
+    "Admission": "$28.12",
+    "Rating": "4.2"
   },
   {
     "City": "Boston",
     "Name": "Grand Hall of Boston #5",
     "Category": "Nature",
-    "Admission": "$44.40",
-    "Rating": "4.5"
+    "Admission": "$2.26",
+    "Rating": "4.7"
   },
   {
     "City": "Seattle",
     "Name": "Heritage Center of Seattle #6",
     "Category": "Museum",
-    "Admission": "$32.91",
-    "Rating": "4.6"
+    "Admission": "$26.03",
+    "Rating": "4.9"
   },
   {
     "City": "Denver",
     "Name": "Victory Plaza of Denver #7",
     "Category": "Park",
-    "Admission": "$39.53",
-    "Rating": "4.4"
+    "Admission": "$16.05",
+    "Rating": "4.5"
   },
   {
     "City": "Austin",
     "Name": "Discovery Gardens of Austin #8",
     "Category": "Historical Site",
-    "Admission": "$21.49",
+    "Admission": "$1.25",
     "Rating": "4.8"
   },
   {
     "City": "Toronto",
     "Name": "Liberty Monument of Toronto #9",
     "Category": "Theme Park",
-    "Admission": "$33.93",
-    "Rating": "5.0"
+    "Admission": "$35.64",
+    "Rating": "4.4"
   },
   {
     "City": "Vancouver",
     "Name": "Frontier Preserve of Vancouver #10",
     "Category": "Landmark",
-    "Admission": "$28.81",
-    "Rating": "4.6"
+    "Admission": "$32.32",
+    "Rating": "4.1"
   },
   {
     "City": "Calgary",
     "Name": "Grand Hall of Calgary #11",
     "Category": "Nature",
-    "Admission": "$37.13",
-    "Rating": "4.3"
+    "Admission": "$29.07",
+    "Rating": "4.6"
   },
   {
     "City": "Edmonton",
     "Name": "Heritage Center of Edmonton #12",
     "Category": "Museum",
-    "Admission": "$45.84",
-    "Rating": "4.8"
+    "Admission": "$42.75",
+    "Rating": "4.1"
   },
   {
     "City": "Ottawa",
     "Name": "Victory Plaza of Ottawa #13",
     "Category": "Park",
-    "Admission": "$31.22",
-    "Rating": "4.8"
+    "Admission": "$17.10",
+    "Rating": "4.9"
   },
   {
     "City": "Montreal",
     "Name": "Discovery Gardens of Montreal #14",
     "Category": "Historical Site",
-    "Admission": "$22.75",
-    "Rating": "4.4"
+    "Admission": "$19.62",
+    "Rating": "4.2"
   },
   {
     "City": "Knoxville",
     "Name": "Liberty Monument of Knoxville #15",
     "Category": "Theme Park",
-    "Admission": "$48.78",
-    "Rating": "4.2"
+    "Admission": "$36.35",
+    "Rating": "4.5"
   },
   {
     "City": "Nashville",
     "Name": "Frontier Preserve of Nashville #16",
     "Category": "Landmark",
-    "Admission": "$34.00",
-    "Rating": "4.5"
+    "Admission": "$13.13",
+    "Rating": "4.7"
   },
   {
     "City": "Mexico City",
     "Name": "Grand Hall of Mexico City #17",
     "Category": "Nature",
-    "Admission": "$22.94",
-    "Rating": "4.6"
+    "Admission": "$30.95",
+    "Rating": "5.0"
   },
   {
     "City": "San Diego",
     "Name": "Heritage Center of San Diego #18",
     "Category": "Museum",
-    "Admission": "$29.22",
-    "Rating": "4.6"
+    "Admission": "$36.21",
+    "Rating": "4.5"
   },
   {
     "City": "San Jose",
     "Name": "Victory Plaza of San Jose #19",
     "Category": "Park",
-    "Admission": "$19.36",
-    "Rating": "4.6"
+    "Admission": "$40.50",
+    "Rating": "4.8"
   },
   {
     "City": "Los Angeles",
     "Name": "Discovery Gardens of Los Angeles #20",
     "Category": "Historical Site",
-    "Admission": "$33.11",
-    "Rating": "4.1"
+    "Admission": "$5.08",
+    "Rating": "5.0"
   },
   {
     "City": "New York",
     "Name": "Liberty Monument of New York #21",
     "Category": "Theme Park",
-    "Admission": "$17.32",
-    "Rating": "4.2"
+    "Admission": "$17.50",
+    "Rating": "4.9"
   },
   {
     "City": "Chicago",
     "Name": "Frontier Preserve of Chicago #22",
     "Category": "Landmark",
-    "Admission": "$33.90",
-    "Rating": "4.4"
+    "Admission": "$7.05",
+    "Rating": "4.3"
   },
   {
     "City": "San Francisco",
     "Name": "Grand Hall of San Francisco #23",
     "Category": "Nature",
-    "Admission": "$32.97",
-    "Rating": "4.5"
+    "Admission": "$49.28",
+    "Rating": "4.1"
   },
   {
     "City": "Miami",
     "Name": "Heritage Center of Miami #24",
     "Category": "Museum",
-    "Admission": "$37.73",
-    "Rating": "4.4"
+    "Admission": "$42.98",
+    "Rating": "4.5"
   },
   {
     "City": "Boston",
     "Name": "Victory Plaza of Boston #25",
     "Category": "Park",
-    "Admission": "$25.85",
-    "Rating": "4.9"
+    "Admission": "$46.96",
+    "Rating": "4.6"
   },
   {
     "City": "Seattle",
     "Name": "Discovery Gardens of Seattle #26",
     "Category": "Historical Site",
-    "Admission": "$35.68",
-    "Rating": "5.0"
+    "Admission": "$13.72",
+    "Rating": "4.6"
   },
   {
     "City": "Denver",
     "Name": "Liberty Monument of Denver #27",
     "Category": "Theme Park",
-    "Admission": "$10.90",
+    "Admission": "$42.63",
     "Rating": "4.3"
   },
   {
     "City": "Austin",
     "Name": "Frontier Preserve of Austin #28",
     "Category": "Landmark",
-    "Admission": "$4.09",
-    "Rating": "4.6"
+    "Admission": "$21.87",
+    "Rating": "4.8"
   },
   {
     "City": "Toronto",
     "Name": "Grand Hall of Toronto #29",
     "Category": "Nature",
-    "Admission": "$30.53",
-    "Rating": "4.7"
+    "Admission": "$37.77",
+    "Rating": "4.2"
   },
   {
     "City": "Vancouver",
     "Name": "Heritage Center of Vancouver #30",
     "Category": "Museum",
-    "Admission": "$43.73",
-    "Rating": "4.9"
+    "Admission": "$49.77",
+    "Rating": "4.6"
   },
   {
     "City": "Calgary",
     "Name": "Victory Plaza of Calgary #31",
     "Category": "Park",
-    "Admission": "$39.70",
-    "Rating": "4.3"
+    "Admission": "$30.22",
+    "Rating": "4.5"
   },
   {
     "City": "Edmonton",
     "Name": "Discovery Gardens of Edmonton #32",
     "Category": "Historical Site",
-    "Admission": "$28.82",
-    "Rating": "4.6"
+    "Admission": "$31.51",
+    "Rating": "4.3"
   },
   {
     "City": "Ottawa",
     "Name": "Liberty Monument of Ottawa #33",
     "Category": "Theme Park",
-    "Admission": "$45.16",
-    "Rating": "4.8"
+    "Admission": "$33.54",
+    "Rating": "4.1"
   },
   {
     "City": "Montreal",
     "Name": "Frontier Preserve of Montreal #34",
     "Category": "Landmark",
-    "Admission": "$8.48",
-    "Rating": "4.7"
+    "Admission": "$5.36",
+    "Rating": "4.4"
   },
   {
     "City": "Knoxville",
     "Name": "Grand Hall of Knoxville #35",
     "Category": "Nature",
-    "Admission": "$3.39",
+    "Admission": "$10.53",
     "Rating": "4.0"
   },
   {
     "City": "Nashville",
     "Name": "Heritage Center of Nashville #36",
     "Category": "Museum",
-    "Admission": "$41.39",
-    "Rating": "4.1"
+    "Admission": "$40.39",
+    "Rating": "4.6"
   },
   {
     "City": "Mexico City",
     "Name": "Victory Plaza of Mexico City #37",
     "Category": "Park",
-    "Admission": "$8.04",
-    "Rating": "4.8"
+    "Admission": "$20.99",
+    "Rating": "4.6"
   },
   {
     "City": "San Diego",
     "Name": "Discovery Gardens of San Diego #38",
     "Category": "Historical Site",
-    "Admission": "$34.22",
-    "Rating": "4.3"
+    "Admission": "$39.85",
+    "Rating": "4.2"
   },
   {
     "City": "San Jose",
     "Name": "Liberty Monument of San Jose #39",
     "Category": "Theme Park",
-    "Admission": "$3.19",
-    "Rating": "4.3"
+    "Admission": "$3.02",
+    "Rating": "4.6"
   },
   {
     "City": "Los Angeles",
     "Name": "Frontier Preserve of Los Angeles #40",
     "Category": "Landmark",
-    "Admission": "$37.44",
-    "Rating": "4.4"
+    "Admission": "$38.87",
+    "Rating": "4.6"
   },
   {
     "City": "New York",
     "Name": "Grand Hall of New York #41",
     "Category": "Nature",
-    "Admission": "$44.16",
-    "Rating": "5.0"
+    "Admission": "$41.88",
+    "Rating": "4.6"
   },
   {
     "City": "Chicago",
     "Name": "Heritage Center of Chicago #42",
     "Category": "Museum",
-    "Admission": "$17.61",
+    "Admission": "$31.93",
     "Rating": "4.1"
   },
   {
     "City": "San Francisco",
     "Name": "Victory Plaza of San Francisco #43",
     "Category": "Park",
-    "Admission": "$49.24",
-    "Rating": "4.2"
+    "Admission": "$41.97",
+    "Rating": "4.1"
   },
   {
     "City": "Miami",
     "Name": "Discovery Gardens of Miami #44",
     "Category": "Historical Site",
-    "Admission": "$36.34",
-    "Rating": "4.5"
+    "Admission": "$11.48",
+    "Rating": "4.6"
   },
   {
     "City": "Boston",
     "Name": "Liberty Monument of Boston #45",
     "Category": "Theme Park",
-    "Admission": "$16.57",
-    "Rating": "4.8"
+    "Admission": "$24.92",
+    "Rating": "4.0"
   },
   {
     "City": "Seattle",
     "Name": "Frontier Preserve of Seattle #46",
     "Category": "Landmark",
-    "Admission": "$19.65",
-    "Rating": "4.7"
+    "Admission": "$21.62",
+    "Rating": "4.9"
   },
   {
     "City": "Denver",
     "Name": "Grand Hall of Denver #47",
     "Category": "Nature",
-    "Admission": "$22.73",
-    "Rating": "4.5"
+    "Admission": "$15.76",
+    "Rating": "4.7"
   },
   {
     "City": "Austin",
     "Name": "Heritage Center of Austin #48",
     "Category": "Museum",
-    "Admission": "$47.82",
-    "Rating": "4.8"
+    "Admission": "$34.63",
+    "Rating": "5.0"
   },
   {
     "City": "Toronto",
     "Name": "Victory Plaza of Toronto #49",
     "Category": "Park",
-    "Admission": "$35.31",
-    "Rating": "4.4"
+    "Admission": "$17.27",
+    "Rating": "4.6"
   },
   {
     "City": "Vancouver",
     "Name": "Discovery Gardens of Vancouver #50",
     "Category": "Historical Site",
-    "Admission": "$25.82",
-    "Rating": "4.3"
+    "Admission": "$47.84",
+    "Rating": "4.4"
   },
   {
     "City": "Calgary",
     "Name": "Liberty Monument of Calgary #51",
     "Category": "Theme Park",
-    "Admission": "$48.34",
-    "Rating": "4.7"
+    "Admission": "$10.57",
+    "Rating": "4.9"
   },
   {
     "City": "Edmonton",
     "Name": "Frontier Preserve of Edmonton #52",
     "Category": "Landmark",
-    "Admission": "$43.61",
-    "Rating": "4.9"
+    "Admission": "$20.18",
+    "Rating": "4.3"
   },
   {
     "City": "Ottawa",
     "Name": "Grand Hall of Ottawa #53",
     "Category": "Nature",
-    "Admission": "$15.10",
-    "Rating": "4.6"
+    "Admission": "$33.22",
+    "Rating": "4.8"
   },
   {
     "City": "Montreal",
     "Name": "Heritage Center of Montreal #54",
     "Category": "Museum",
-    "Admission": "$13.53",
+    "Admission": "$28.87",
     "Rating": "4.6"
   },
   {
     "City": "Knoxville",
     "Name": "Victory Plaza of Knoxville #55",
     "Category": "Park",
-    "Admission": "$39.72",
-    "Rating": "4.6"
+    "Admission": "$6.97",
+    "Rating": "4.9"
   },
   {
     "City": "Nashville",
     "Name": "Discovery Gardens of Nashville #56",
     "Category": "Historical Site",
-    "Admission": "$44.45",
-    "Rating": "4.5"
+    "Admission": "$25.48",
+    "Rating": "4.4"
   },
   {
     "City": "Mexico City",
     "Name": "Liberty Monument of Mexico City #57",
     "Category": "Theme Park",
-    "Admission": "$43.27",
+    "Admission": "$27.29",
     "Rating": "4.4"
   },
   {
     "City": "San Diego",
     "Name": "Frontier Preserve of San Diego #58",
     "Category": "Landmark",
-    "Admission": "$14.01",
+    "Admission": "$29.69",
     "Rating": "4.8"
   },
   {
     "City": "San Jose",
     "Name": "Grand Hall of San Jose #59",
     "Category": "Nature",
-    "Admission": "$4.67",
-    "Rating": "5.0"
+    "Admission": "$20.23",
+    "Rating": "4.1"
   },
   {
     "City": "Los Angeles",
     "Name": "Heritage Center of Los Angeles #60",
     "Category": "Museum",
-    "Admission": "$47.88",
-    "Rating": "4.9"
+    "Admission": "$10.72",
+    "Rating": "4.8"
   },
   {
     "City": "New York",
     "Name": "Victory Plaza of New York #61",
     "Category": "Park",
-    "Admission": "$13.87",
-    "Rating": "4.3"
+    "Admission": "$45.03",
+    "Rating": "4.4"
   },
   {
     "City": "Chicago",
     "Name": "Discovery Gardens of Chicago #62",
     "Category": "Historical Site",
-    "Admission": "$37.37",
-    "Rating": "4.5"
+    "Admission": "$28.38",
+    "Rating": "4.1"
   },
   {
     "City": "San Francisco",
     "Name": "Liberty Monument of San Francisco #63",
     "Category": "Theme Park",
-    "Admission": "$34.99",
-    "Rating": "4.3"
+    "Admission": "$13.39",
+    "Rating": "4.8"
   },
   {
     "City": "Miami",
     "Name": "Frontier Preserve of Miami #64",
     "Category": "Landmark",
-    "Admission": "$2.75",
-    "Rating": "4.4"
+    "Admission": "$29.07",
+    "Rating": "4.2"
   },
   {
     "City": "Boston",
     "Name": "Grand Hall of Boston #65",
     "Category": "Nature",
-    "Admission": "$48.32",
-    "Rating": "5.0"
+    "Admission": "$40.44",
+    "Rating": "4.3"
   },
   {
     "City": "Seattle",
     "Name": "Heritage Center of Seattle #66",
     "Category": "Museum",
-    "Admission": "$19.76",
-    "Rating": "4.4"
+    "Admission": "$11.75",
+    "Rating": "4.9"
   },
   {
     "City": "Denver",
     "Name": "Victory Plaza of Denver #67",
     "Category": "Park",
-    "Admission": "$39.57",
-    "Rating": "5.0"
+    "Admission": "$32.86",
+    "Rating": "4.7"
   },
   {
     "City": "Austin",
     "Name": "Discovery Gardens of Austin #68",
     "Category": "Historical Site",
-    "Admission": "$18.21",
-    "Rating": "4.3"
+    "Admission": "$33.46",
+    "Rating": "4.4"
   },
   {
     "City": "Toronto",
     "Name": "Liberty Monument of Toronto #69",
     "Category": "Theme Park",
-    "Admission": "$8.36",
-    "Rating": "4.6"
+    "Admission": "$20.21",
+    "Rating": "4.3"
   },
   {
     "City": "Vancouver",
     "Name": "Frontier Preserve of Vancouver #70",
     "Category": "Landmark",
-    "Admission": "$25.39",
-    "Rating": "4.2"
+    "Admission": "$36.87",
+    "Rating": "4.6"
   },
   {
     "City": "Calgary",
     "Name": "Grand Hall of Calgary #71",
     "Category": "Nature",
-    "Admission": "$35.24",
-    "Rating": "4.6"
+    "Admission": "$19.80",
+    "Rating": "4.0"
   },
   {
     "City": "Edmonton",
     "Name": "Heritage Center of Edmonton #72",
     "Category": "Museum",
-    "Admission": "$18.67",
-    "Rating": "4.6"
+    "Admission": "$23.25",
+    "Rating": "4.8"
   },
   {
     "City": "Ottawa",
     "Name": "Victory Plaza of Ottawa #73",
     "Category": "Park",
-    "Admission": "$8.25",
-    "Rating": "4.5"
+    "Admission": "$42.83",
+    "Rating": "4.1"
   },
   {
     "City": "Montreal",
     "Name": "Discovery Gardens of Montreal #74",
     "Category": "Historical Site",
-    "Admission": "$12.77",
-    "Rating": "4.1"
+    "Admission": "$6.34",
+    "Rating": "5.0"
   },
   {
     "City": "Knoxville",
     "Name": "Liberty Monument of Knoxville #75",
     "Category": "Theme Park",
-    "Admission": "$26.30",
-    "Rating": "4.9"
+    "Admission": "$25.01",
+    "Rating": "4.8"
   },
   {
     "City": "Nashville",
     "Name": "Frontier Preserve of Nashville #76",
     "Category": "Landmark",
-    "Admission": "$14.05",
-    "Rating": "4.1"
+    "Admission": "$46.71",
+    "Rating": "4.3"
   },
   {
     "City": "Mexico City",
     "Name": "Grand Hall of Mexico City #77",
     "Category": "Nature",
-    "Admission": "$25.45",
-    "Rating": "4.3"
+    "Admission": "$8.94",
+    "Rating": "4.9"
   },
   {
     "City": "San Diego",
     "Name": "Heritage Center of San Diego #78",
     "Category": "Museum",
-    "Admission": "$12.40",
+    "Admission": "$37.13",
     "Rating": "4.2"
   },
   {
     "City": "San Jose",
     "Name": "Victory Plaza of San Jose #79",
     "Category": "Park",
-    "Admission": "$9.38",
-    "Rating": "4.1"
+    "Admission": "$34.23",
+    "Rating": "4.8"
   },
   {
     "City": "Los Angeles",
     "Name": "Discovery Gardens of Los Angeles #80",
     "Category": "Historical Site",
-    "Admission": "$26.55",
-    "Rating": "4.1"
+    "Admission": "$22.90",
+    "Rating": "4.7"
   },
   {
     "City": "New York",
     "Name": "Liberty Monument of New York #81",
     "Category": "Theme Park",
-    "Admission": "$7.23",
-    "Rating": "5.0"
+    "Admission": "$27.93",
+    "Rating": "4.7"
   },
   {
     "City": "Chicago",
     "Name": "Frontier Preserve of Chicago #82",
     "Category": "Landmark",
-    "Admission": "$10.71",
+    "Admission": "$8.71",
     "Rating": "4.9"
   },
   {
     "City": "San Francisco",
     "Name": "Grand Hall of San Francisco #83",
     "Category": "Nature",
-    "Admission": "$41.61",
-    "Rating": "4.5"
+    "Admission": "$39.72",
+    "Rating": "4.4"
   },
   {
     "City": "Miami",
     "Name": "Heritage Center of Miami #84",
     "Category": "Museum",
-    "Admission": "$18.07",
-    "Rating": "4.9"
+    "Admission": "$11.58",
+    "Rating": "4.1"
   },
   {
     "City": "Boston",
     "Name": "Victory Plaza of Boston #85",
     "Category": "Park",
-    "Admission": "$0.88",
-    "Rating": "4.3"
+    "Admission": "$26.13",
+    "Rating": "4.2"
   },
   {
     "City": "Seattle",
     "Name": "Discovery Gardens of Seattle #86",
     "Category": "Historical Site",
-    "Admission": "$38.38",
-    "Rating": "4.4"
+    "Admission": "$22.76",
+    "Rating": "4.7"
   },
   {
     "City": "Denver",
     "Name": "Liberty Monument of Denver #87",
     "Category": "Theme Park",
-    "Admission": "$35.82",
-    "Rating": "4.3"
+    "Admission": "$3.87",
+    "Rating": "4.9"
   },
   {
     "City": "Austin",
     "Name": "Frontier Preserve of Austin #88",
     "Category": "Landmark",
-    "Admission": "$4.34",
-    "Rating": "4.7"
+    "Admission": "$2.96",
+    "Rating": "4.5"
   },
   {
     "City": "Toronto",
     "Name": "Grand Hall of Toronto #89",
     "Category": "Nature",
-    "Admission": "$42.23",
-    "Rating": "4.6"
+    "Admission": "$23.47",
+    "Rating": "4.8"
   },
   {
     "City": "Vancouver",
     "Name": "Heritage Center of Vancouver #90",
     "Category": "Museum",
-    "Admission": "$26.74",
-    "Rating": "4.2"
+    "Admission": "$25.62",
+    "Rating": "4.8"
   },
   {
     "City": "Calgary",
     "Name": "Victory Plaza of Calgary #91",
     "Category": "Park",
-    "Admission": "$13.48",
-    "Rating": "4.2"
+    "Admission": "$6.58",
+    "Rating": "4.6"
   },
   {
     "City": "Edmonton",
     "Name": "Discovery Gardens of Edmonton #92",
     "Category": "Historical Site",
-    "Admission": "$49.46",
-    "Rating": "4.6"
+    "Admission": "$14.36",
+    "Rating": "4.7"
   },
   {
     "City": "Ottawa",
     "Name": "Liberty Monument of Ottawa #93",
     "Category": "Theme Park",
-    "Admission": "$36.73",
-    "Rating": "4.1"
+    "Admission": "$35.32",
+    "Rating": "4.9"
   },
   {
     "City": "Montreal",
     "Name": "Frontier Preserve of Montreal #94",
     "Category": "Landmark",
-    "Admission": "$12.71",
-    "Rating": "4.9"
+    "Admission": "$43.65",
+    "Rating": "4.1"
   },
   {
     "City": "Knoxville",
     "Name": "Grand Hall of Knoxville #95",
     "Category": "Nature",
-    "Admission": "$3.79",
-    "Rating": "4.1"
+    "Admission": "$16.55",
+    "Rating": "4.0"
   },
   {
     "City": "Nashville",
     "Name": "Heritage Center of Nashville #96",
     "Category": "Museum",
-    "Admission": "$15.87",
-    "Rating": "5.0"
+    "Admission": "$9.61",
+    "Rating": "4.6"
   },
   {
     "City": "Mexico City",
     "Name": "Victory Plaza of Mexico City #97",
     "Category": "Park",
-    "Admission": "$44.71",
-    "Rating": "4.1"
+    "Admission": "$37.50",
+    "Rating": "4.3"
   },
   {
     "City": "San Diego",
     "Name": "Discovery Gardens of San Diego #98",
     "Category": "Historical Site",
-    "Admission": "$14.55",
-    "Rating": "5.0"
+    "Admission": "$15.48",
+    "Rating": "4.6"
   },
   {
     "City": "San Jose",
     "Name": "Liberty Monument of San Jose #99",
     "Category": "Theme Park",
-    "Admission": "$32.10",
-    "Rating": "4.1"
+    "Admission": "$39.21",
+    "Rating": "4.6"
   },
   {
     "City": "Los Angeles",
     "Name": "Frontier Preserve of Los Angeles #100",
     "Category": "Landmark",
-    "Admission": "$40.91",
-    "Rating": "4.5"
+    "Admission": "$18.58",
+    "Rating": "4.3"
   }
 ]

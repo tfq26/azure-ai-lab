@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "node backend/server.js"
+    "start": "node backend/server.js",
+    "generate-data": "node data/generate_training_data.js",
+    "generate_training_data.js": "node data/generate_training_data.js"
   },
   "dependencies": {
     "cors": "^2.8.5",

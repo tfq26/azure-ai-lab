@@ -11,84 +11,84 @@
     "Name": "Blue Bonnet Kitchen of Chicago #2",
     "Category": "Steakhouse",
     "Price": "$$$",
-    "Rating": "4.2"
+    "Rating": "4.8"
   },
   {
     "City": "San Francisco",
     "Name": "Yellow Rose Taqueria of San Francisco #3",
     "Category": "Seafood",
     "Price": "$$$$",
-    "Rating": "4.8"
+    "Rating": "4.5"
   },
   {
     "City": "Miami",
     "Name": "Alamo Smokehouse of Miami #4",
     "Category": "Southern",
     "Price": "$",
-    "Rating": "4.9"
+    "Rating": "4.8"
   },
   {
     "City": "Boston",
     "Name": "Pecos Table of Boston #5",
     "Category": "Bistro",
     "Price": "$$",
-    "Rating": "4.2"
+    "Rating": "4.6"
   },
   {
     "City": "Seattle",
     "Name": "Lone Star Pit of Seattle #6",
     "Category": "BBQ",
     "Price": "$$$",
-    "Rating": "3.9"
+    "Rating": "4.8"
   },
   {
     "City": "Denver",
     "Name": "Big Tex Grill of Denver #7",
     "Category": "Tex-Mex",
     "Price": "$$$$",
-    "Rating": "4.9"
+    "Rating": "4.8"
   },
   {
     "City": "Austin",
     "Name": "Blue Bonnet Kitchen of Austin #8",
     "Category": "Steakhouse",
     "Price": "$",
-    "Rating": "4.2"
+    "Rating": "4.6"
   },
   {
     "City": "Toronto",
     "Name": "Yellow Rose Taqueria of Toronto #9",
     "Category": "Seafood",
     "Price": "$$",
-    "Rating": "4.2"
+    "Rating": "3.9"
   },
   {
     "City": "Vancouver",
     "Name": "Alamo Smokehouse of Vancouver #10",
     "Category": "Southern",
     "Price": "$$$",
-    "Rating": "3.7"
+    "Rating": "3.8"
   },
   {
     "City": "Calgary",
     "Name": "Pecos Table of Calgary #11",
     "Category": "Bistro",
     "Price": "$$$$",
-    "Rating": "4.6"
+    "Rating": "4.2"
   },
   {
     "City": "Edmonton",
     "Name": "Lone Star Pit of Edmonton #12",
     "Category": "BBQ",
     "Price": "$",
-    "Rating": "5.0"
+    "Rating": "4.5"
   },
   {
     "City": "Ottawa",
     "Name": "Big Tex Grill of Ottawa #13",
     "Category": "Tex-Mex",
     "Price": "$$",
-    "Rating": "4.6"
+    "Rating": "3.6"
   },
   {
     "City": "Montreal",
@@ -102,378 +102,378 @@
     "Name": "Yellow Rose Taqueria of Knoxville #15",
     "Category": "Seafood",
     "Price": "$$$$",
-    "Rating": "3.6"
+    "Rating": "4.6"
   },
   {
     "City": "Nashville",
     "Name": "Alamo Smokehouse of Nashville #16",
     "Category": "Southern",
     "Price": "$",
-    "Rating": "4.9"
+    "Rating": "4.6"
   },
   {
     "City": "Mexico City",
     "Name": "Pecos Table of Mexico City #17",
     "Category": "Bistro",
     "Price": "$$",
-    "Rating": "4.8"
+    "Rating": "3.9"
   },
   {
     "City": "San Diego",
     "Name": "Lone Star Pit of San Diego #18",
     "Category": "BBQ",
     "Price": "$$$",
-    "Rating": "3.9"
+    "Rating": "4.0"
   },
   {
     "City": "San Jose",
     "Name": "Big Tex Grill of San Jose #19",
     "Category": "Tex-Mex",
     "Price": "$$$$",
-    "Rating": "4.4"
+    "Rating": "3.8"
   },
   {
     "City": "Los Angeles",
     "Name": "Blue Bonnet Kitchen of Los Angeles #20",
     "Category": "Steakhouse",
     "Price": "$",
-    "Rating": "3.8"
+    "Rating": "4.5"
   },
   {
     "City": "New York",
     "Name": "Yellow Rose Taqueria of New York #21",
     "Category": "Seafood",
     "Price": "$$",
-    "Rating": "4.6"
+    "Rating": "4.0"
   },
   {
     "City": "Chicago",
     "Name": "Alamo Smokehouse of Chicago #22",
     "Category": "Southern",
     "Price": "$$$",
-    "Rating": "4.2"
+    "Rating": "4.3"
   },
   {
     "City": "San Francisco",
     "Name": "Pecos Table of San Francisco #23",
     "Category": "Bistro",
     "Price": "$$$$",
-    "Rating": "4.7"
+    "Rating": "4.3"
   },
   {
     "City": "Miami",
     "Name": "Lone Star Pit of Miami #24",
     "Category": "BBQ",
     "Price": "$",
-    "Rating": "3.7"
+    "Rating": "4.4"
   },
   {
     "City": "Boston",
     "Name": "Big Tex Grill of Boston #25",
     "Category": "Tex-Mex",
     "Price": "$$",
-    "Rating": "4.4"
+    "Rating": "3.9"
   },
   {
     "City": "Seattle",
     "Name": "Blue Bonnet Kitchen of Seattle #26",
     "Category": "Steakhouse",
     "Price": "$$$",
-    "Rating": "4.3"
+    "Rating": "4.8"
   },
   {
     "City": "Denver",
     "Name": "Yellow Rose Taqueria of Denver #27",
     "Category": "Seafood",
     "Price": "$$$$",
-    "Rating": "3.7"
+    "Rating": "3.6"
   },
   {
     "City": "Austin",
     "Name": "Alamo Smokehouse of Austin #28",
     "Category": "Southern",
     "Price": "$",
-    "Rating": "4.7"
+    "Rating": "4.0"
   },
   {
     "City": "Toronto",
     "Name": "Pecos Table of Toronto #29",
     "Category": "Bistro",
     "Price": "$$",
-    "Rating": "4.2"
+    "Rating": "3.6"
   },
   {
     "City": "Vancouver",
     "Name": "Lone Star Pit of Vancouver #30",
     "Category": "BBQ",
     "Price": "$$$",
-    "Rating": "3.7"
+    "Rating": "4.9"
   },
   {
     "City": "Calgary",
     "Name": "Big Tex Grill of Calgary #31",
     "Category": "Tex-Mex",
     "Price": "$$$$",
-    "Rating": "3.9"
+    "Rating": "4.3"
   },
   {
     "City": "Edmonton",
     "Name": "Blue Bonnet Kitchen of Edmonton #32",
     "Category": "Steakhouse",
     "Price": "$",
-    "Rating": "4.3"
+    "Rating": "5.0"
   },
   {
     "City": "Ottawa",
     "Name": "Yellow Rose Taqueria of Ottawa #33",
     "Category": "Seafood",
     "Price": "$$",
-    "Rating": "4.1"
+    "Rating": "4.0"
   },
   {
     "City": "Montreal",
     "Name": "Alamo Smokehouse of Montreal #34",
     "Category": "Southern",
     "Price": "$$$",
-    "Rating": "4.3"
+    "Rating": "4.0"
   },
   {
     "City": "Knoxville",
     "Name": "Pecos Table of Knoxville #35",
     "Category": "Bistro",
     "Price": "$$$$",
-    "Rating": "5.0"
+    "Rating": "3.6"
   },
   {
     "City": "Nashville",
     "Name": "Lone Star Pit of Nashville #36",
     "Category": "BBQ",
     "Price": "$",
-    "Rating": "4.6"
+    "Rating": "4.8"
   },
   {
     "City": "Mexico City",
     "Name": "Big Tex Grill of Mexico City #37",
     "Category": "Tex-Mex",
     "Price": "$$",
-    "Rating": "4.5"
+    "Rating": "3.8"
   },
   {
     "City": "San Diego",
     "Name": "Blue Bonnet Kitchen of San Diego #38",
     "Category": "Steakhouse",
     "Price": "$$$",
-    "Rating": "4.4"
+    "Rating": "4.7"
   },
   {
     "City": "San Jose",
     "Name": "Yellow Rose Taqueria of San Jose #39",
     "Category": "Seafood",
     "Price": "$$$$",
-    "Rating": "3.6"
+    "Rating": "4.4"
   },
   {
     "City": "Los Angeles",
     "Name": "Alamo Smokehouse of Los Angeles #40",
     "Category": "Southern",
     "Price": "$",
-    "Rating": "4.4"
+    "Rating": "3.9"
   },
   {
     "City": "New York",
     "Name": "Pecos Table of New York #41",
     "Category": "Bistro",
     "Price": "$$",
-    "Rating": "3.6"
+    "Rating": "3.5"
   },
   {
     "City": "Chicago",
     "Name": "Lone Star Pit of Chicago #42",
     "Category": "BBQ",
     "Price": "$$$",
-    "Rating": "4.2"
+    "Rating": "4.8"
   },
   {
     "City": "San Francisco",
     "Name": "Big Tex Grill of San Francisco #43",
     "Category": "Tex-Mex",
     "Price": "$$$$",
-    "Rating": "4.5"
+    "Rating": "4.0"
   },
   {
     "City": "Miami",
     "Name": "Blue Bonnet Kitchen of Miami #44",
     "Category": "Steakhouse",
     "Price": "$",
-    "Rating": "3.7"
+    "Rating": "3.8"
   },
   {
     "City": "Boston",
     "Name": "Yellow Rose Taqueria of Boston #45",
     "Category": "Seafood",
     "Price": "$$",
-    "Rating": "4.6"
+    "Rating": "5.0"
   },
   {
     "City": "Seattle",
     "Name": "Alamo Smokehouse of Seattle #46",
     "Category": "Southern",
     "Price": "$$$",
-    "Rating": "3.8"
+    "Rating": "4.7"
   },
   {
     "City": "Denver",
     "Name": "Pecos Table of Denver #47",
     "Category": "Bistro",
     "Price": "$$$$",
-    "Rating": "4.4"
+    "Rating": "4.1"
   },
   {
     "City": "Austin",
     "Name": "Lone Star Pit of Austin #48",
     "Category": "BBQ",
     "Price": "$",
-    "Rating": "3.5"
+    "Rating": "4.9"
   },
   {
     "City": "Toronto",
     "Name": "Big Tex Grill of Toronto #49",
     "Category": "Tex-Mex",
     "Price": "$$",
-    "Rating": "4.3"
+    "Rating": "3.7"
   },
   {
     "City": "Vancouver",
     "Name": "Blue Bonnet Kitchen of Vancouver #50",
     "Category": "Steakhouse",
     "Price": "$$$",
-    "Rating": "3.6"
+    "Rating": "3.5"
   },
   {
     "City": "Calgary",
     "Name": "Yellow Rose Taqueria of Calgary #51",
     "Category": "Seafood",
     "Price": "$$$$",
-    "Rating": "4.3"
+    "Rating": "3.6"
   },
   {
     "City": "Edmonton",
     "Name": "Alamo Smokehouse of Edmonton #52",
     "Category": "Southern",
     "Price": "$",
-    "Rating": "4.8"
+    "Rating": "4.9"
   },
   {
     "City": "Ottawa",
     "Name": "Pecos Table of Ottawa #53",
     "Category": "Bistro",
     "Price": "$$",
-    "Rating": "4.9"
+    "Rating": "4.6"
   },
   {
     "City": "Montreal",
     "Name": "Lone Star Pit of Montreal #54",
     "Category": "BBQ",
     "Price": "$$$",
-    "Rating": "4.0"
+    "Rating": "3.8"
   },
   {
     "City": "Knoxville",
     "Name": "Big Tex Grill of Knoxville #55",
     "Category": "Tex-Mex",
     "Price": "$$$$",
-    "Rating": "3.5"
+    "Rating": "4.4"
   },
   {
     "City": "Nashville",
     "Name": "Blue Bonnet Kitchen of Nashville #56",
     "Category": "Steakhouse",
     "Price": "$",
-    "Rating": "3.8"
+    "Rating": "3.6"
   },
   {
     "City": "Mexico City",
     "Name": "Yellow Rose Taqueria of Mexico City #57",
     "Category": "Seafood",
     "Price": "$$",
-    "Rating": "4.1"
+    "Rating": "4.7"
   },
   {
     "City": "San Diego",
     "Name": "Alamo Smokehouse of San Diego #58",
     "Category": "Southern",
     "Price": "$$$",
-    "Rating": "3.8"
+    "Rating": "4.8"
   },
   {
     "City": "San Jose",
     "Name": "Pecos Table of San Jose #59",
     "Category": "Bistro",
     "Price": "$$$$",
-    "Rating": "4.3"
+    "Rating": "3.8"
   },
   {
     "City": "Los Angeles",
     "Name": "Lone Star Pit of Los Angeles #60",
     "Category": "BBQ",
     "Price": "$",
-    "Rating": "3.5"
+    "Rating": "4.0"
   },
   {
     "City": "New York",
     "Name": "Big Tex Grill of New York #61",
     "Category": "Tex-Mex",
     "Price": "$$",
-    "Rating": "3.7"
+    "Rating": "3.9"
   },
   {
     "City": "Chicago",
     "Name": "Blue Bonnet Kitchen of Chicago #62",
     "Category": "Steakhouse",
     "Price": "$$$",
-    "Rating": "4.9"
+    "Rating": "3.6"
   },
   {
     "City": "San Francisco",
     "Name": "Yellow Rose Taqueria of San Francisco #63",
     "Category": "Seafood",
     "Price": "$$$$",
-    "Rating": "3.8"
+    "Rating": "3.9"
   },
   {
     "City": "Miami",
     "Name": "Alamo Smokehouse of Miami #64",
     "Category": "Southern",
     "Price": "$",
-    "Rating": "4.0"
+    "Rating": "4.6"
   },
   {
     "City": "Boston",
     "Name": "Pecos Table of Boston #65",
     "Category": "Bistro",
     "Price": "$$",
-    "Rating": "3.8"
+    "Rating": "4.2"
   },
   {
     "City": "Seattle",
     "Name": "Lone Star Pit of Seattle #66",
     "Category": "BBQ",
     "Price": "$$$",
-    "Rating": "4.3"
+    "Rating": "3.7"
   },
   {
     "City": "Denver",
     "Name": "Big Tex Grill of Denver #67",
     "Category": "Tex-Mex",
     "Price": "$$$$",
-    "Rating": "4.5"
+    "Rating": "4.9"
   },
   {
     "City": "Austin",
     "Name": "Blue Bonnet Kitchen of Austin #68",
     "Category": "Steakhouse",
     "Price": "$",
-    "Rating": "3.8"
+    "Rating": "4.4"
   },
   {
     "City": "Toronto",
@@ -487,216 +487,216 @@
     "Name": "Alamo Smokehouse of Vancouver #70",
     "Category": "Southern",
     "Price": "$$$",
-    "Rating": "4.8"
+    "Rating": "4.4"
   },
   {
     "City": "Calgary",
     "Name": "Pecos Table of Calgary #71",
     "Category": "Bistro",
     "Price": "$$$$",
-    "Rating": "4.4"
+    "Rating": "4.1"
   },
   {
     "City": "Edmonton",
     "Name": "Lone Star Pit of Edmonton #72",
     "Category": "BBQ",
     "Price": "$",
-    "Rating": "4.7"
+    "Rating": "4.1"
   },
   {
     "City": "Ottawa",
     "Name": "Big Tex Grill of Ottawa #73",
     "Category": "Tex-Mex",
     "Price": "$$",
-    "Rating": "4.5"
+    "Rating": "3.7"
   },
   {
     "City": "Montreal",
     "Name": "Blue Bonnet Kitchen of Montreal #74",
     "Category": "Steakhouse",
     "Price": "$$$",
-    "Rating": "4.3"
+    "Rating": "4.0"
   },
   {
     "City": "Knoxville",
     "Name": "Yellow Rose Taqueria of Knoxville #75",
     "Category": "Seafood",
     "Price": "$$$$",
-    "Rating": "4.1"
+    "Rating": "4.5"
   },
   {
     "City": "Nashville",
     "Name": "Alamo Smokehouse of Nashville #76",
     "Category": "Southern",
     "Price": "$",
-    "Rating": "4.8"
+    "Rating": "4.4"
   },
   {
     "City": "Mexico City",
     "Name": "Pecos Table of Mexico City #77",
     "Category": "Bistro",
     "Price": "$$",
-    "Rating": "3.9"
+    "Rating": "3.5"
   },
   {
     "City": "San Diego",
     "Name": "Lone Star Pit of San Diego #78",
     "Category": "BBQ",
     "Price": "$$$",
-    "Rating": "3.8"
+    "Rating": "4.9"
   },
   {
     "City": "San Jose",
     "Name": "Big Tex Grill of San Jose #79",
     "Category": "Tex-Mex",
     "Price": "$$$$",
-    "Rating": "3.8"
+    "Rating": "3.9"
   },
   {
     "City": "Los Angeles",
     "Name": "Blue Bonnet Kitchen of Los Angeles #80",
     "Category": "Steakhouse",
     "Price": "$",
-    "Rating": "3.9"
+    "Rating": "3.5"
   },
   {
     "City": "New York",
     "Name": "Yellow Rose Taqueria of New York #81",
     "Category": "Seafood",
     "Price": "$$",
-    "Rating": "4.2"
+    "Rating": "3.7"
   },
   {
     "City": "Chicago",
     "Name": "Alamo Smokehouse of Chicago #82",
     "Category": "Southern",
     "Price": "$$$",
-    "Rating": "3.7"
+    "Rating": "4.3"
   },
   {
     "City": "San Francisco",
     "Name": "Pecos Table of San Francisco #83",
     "Category": "Bistro",
     "Price": "$$$$",
-    "Rating": "3.9"
+    "Rating": "4.7"
   },
   {
     "City": "Miami",
     "Name": "Lone Star Pit of Miami #84",
     "Category": "BBQ",
     "Price": "$",
-    "Rating": "4.0"
+    "Rating": "4.6"
   },
   {
     "City": "Boston",
     "Name": "Big Tex Grill of Boston #85",
     "Category": "Tex-Mex",
     "Price": "$$",
-    "Rating": "4.4"
+    "Rating": "4.2"
   },
   {
     "City": "Seattle",
     "Name": "Blue Bonnet Kitchen of Seattle #86",
     "Category": "Steakhouse",
     "Price": "$$$",
-    "Rating": "3.9"
+    "Rating": "3.6"
   },
   {
     "City": "Denver",
     "Name": "Yellow Rose Taqueria of Denver #87",
     "Category": "Seafood",
     "Price": "$$$$",
-    "Rating": "4.3"
+    "Rating": "3.6"
   },
   {
     "City": "Austin",
     "Name": "Alamo Smokehouse of Austin #88",
     "Category": "Southern",
     "Price": "$",
-    "Rating": "3.9"
+    "Rating": "4.8"
   },
   {
     "City": "Toronto",
     "Name": "Pecos Table of Toronto #89",
     "Category": "Bistro",
     "Price": "$$",
-    "Rating": "5.0"
+    "Rating": "4.4"
   },
   {
     "City": "Vancouver",
     "Name": "Lone Star Pit of Vancouver #90",
     "Category": "BBQ",
     "Price": "$$$",
-    "Rating": "4.4"
+    "Rating": "3.7"
   },
   {
     "City": "Calgary",
     "Name": "Big Tex Grill of Calgary #91",
     "Category": "Tex-Mex",
     "Price": "$$$$",
-    "Rating": "4.8"
+    "Rating": "4.6"
   },
   {
     "City": "Edmonton",
     "Name": "Blue Bonnet Kitchen of Edmonton #92",
     "Category": "Steakhouse",
     "Price": "$",
-    "Rating": "4.0"
+    "Rating": "4.3"
   },
   {
     "City": "Ottawa",
     "Name": "Yellow Rose Taqueria of Ottawa #93",
     "Category": "Seafood",
     "Price": "$$",
-    "Rating": "4.2"
+    "Rating": "5.0"
   },
   {
     "City": "Montreal",
     "Name": "Alamo Smokehouse of Montreal #94",
     "Category": "Southern",
     "Price": "$$$",
-    "Rating": "3.7"
+    "Rating": "4.0"
   },
   {
     "City": "Knoxville",
     "Name": "Pecos Table of Knoxville #95",
     "Category": "Bistro",
     "Price": "$$$$",
-    "Rating": "5.0"
+    "Rating": "4.4"
   },
   {
     "City": "Nashville",
     "Name": "Lone Star Pit of Nashville #96",
     "Category": "BBQ",
     "Price": "$",
-    "Rating": "3.5"
+    "Rating": "4.5"
   },
   {
     "City": "Mexico City",
     "Name": "Big Tex Grill of Mexico City #97",
     "Category": "Tex-Mex",
     "Price": "$$",
-    "Rating": "4.5"
+    "Rating": "4.3"
   },
   {
     "City": "San Diego",
     "Name": "Blue Bonnet Kitchen of San Diego #98",
     "Category": "Steakhouse",
     "Price": "$$$",
-    "Rating": "4.3"
+    "Rating": "3.7"
   },
   {
     "City": "San Jose",
     "Name": "Yellow Rose Taqueria of San Jose #99",
     "Category": "Seafood",
     "Price": "$$$$",
-    "Rating": "4.6"
+    "Rating": "4.9"
   },
   {
     "City": "Los Angeles",
     "Name": "Alamo Smokehouse of Los Angeles #100",
     "Category": "Southern",
     "Price": "$",
-    "Rating": "3.5"
+    "Rating": "4.6"
   }
 ]

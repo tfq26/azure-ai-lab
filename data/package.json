@@ -1,0 +1,9 @@
+{
+  "name": "azure-ai-lab-data",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "generate-data": "node generate_training_data.js",
+    "generate_training_data.js": "node generate_training_data.js"
+  }
+}
